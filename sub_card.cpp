@@ -9,7 +9,7 @@ int sub_fail_check(int card_name, int card_count)
     {
         return 1;
     }
-    //if (card_count < "player°¡ µé°íÀÖ´Â Ä«µå °¹¼ö")
+    //if (card_count < "playerê°€ ë“¤ê³ ìˆëŠ” ì¹´ë“œ ê°¯ìˆ˜")
     {
         //return 2;
     }
@@ -24,23 +24,23 @@ int card_sub()
     int correct_card;
     int pass;
 
-    printf("pass´Â 1, Ä«µåÁ¦ÃâÀº0À» ÀÔ·ÂÇÏ½Ã¿À(1.pass/0.Á¦Ãâ) : ");
+    printf("passëŠ” 1, ì¹´ë“œì œì¶œì€0ì„ ì…ë ¥í•˜ì‹œì˜¤(1.pass/0.ì œì¶œ) : ");
     scanf("%d", &pass);
 
 
     if (pass == 1)
     {
-        printf("ÅÏÀ» passÇÏ¼Ì½À´Ï´Ù.\n");
+        printf("í„´ì„ passí•˜ì…¨ìŠµë‹ˆë‹¤.\n");
     }
     else if (pass == 0)
     {
-        printf("Á¦ÃâÇÒ Ä«µå¸¦ ¹øÈ£¿Í °¹¼ö¸¦ ÀÔ·ÂÇÏ»ç¿À(Ä«µå¹øÈ£/Àå¼ö) : ");
+        printf("ì œì¶œí•  ì¹´ë“œë¥¼ ë²ˆí˜¸ì™€ ê°¯ìˆ˜ë¥¼ ì…ë ¥í•˜ì‚¬ì˜¤(ì¹´ë“œë²ˆí˜¸/ì¥ìˆ˜) : ");
         scanf("%d/%d", &card_name, &card_count);
 
         correct_card = sub_fail_check(card_name, card_count);
 
-        if (correct_card == 0) printf("%d¹ø Ä«µå %dÀåÀÌ Á¤»óÁ¤À¸·Î Á¦ÃâµÇ¾ú½À´Ï´Ù. \n", card_name, card_count);
-        else if (correct_card == 1) printf("%d¹ø Ä«µå°¡ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.\n", card_name);
+        if (correct_card == 0) printf("%dë²ˆ ì¹´ë“œ %dì¥ì´ ì •ìƒì •ìœ¼ë¡œ ì œì¶œë˜ì—ˆìŠµë‹ˆë‹¤. \n", card_name, card_count);
+        else if (correct_card == 1) printf("%dë²ˆ ì¹´ë“œê°€ ì¡´ì¬í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.\n", card_name);
     }
 
     return 0;
@@ -53,7 +53,7 @@ int main()
 {
     card_sub();
 
-    printf("ÇÁ·Î±×·¥À» Á¾·áÇÏ·Á¸é ¾Æ¹«±â³ª ´©¸£½Ã¿À....\n");
+    printf("í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•˜ë ¤ë©´ ì•„ë¬´ê¸°ë‚˜ ëˆ„ë¥´ì‹œì˜¤....\n");
     getchar();
 
     return 0;
