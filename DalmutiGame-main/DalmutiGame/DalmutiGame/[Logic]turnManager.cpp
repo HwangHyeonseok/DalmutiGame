@@ -1,0 +1,77 @@
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+
+#include "[Logic]submitCard.h"
+
+int turn = 0;
+void PlayerTurnManagement(int players[4][20]) {
+
+    while (turn != 5) // 카드 제출 확인용 무한루프
+    {
+        srand(time(NULL));
+        int turn = rand() % 4 + 1;
+        if (turn == 1)
+        {
+            printf("[player1님 턴]\n");
+            getchar();
+            printf("player1님이 카드 내실 차례입니다.\n");
+            card_sub(0, players);
+            printf("player2님이 카드 내실 차례입니다.\n");
+            card_sub(1, players);
+            printf("player3님이 카드 내실 차례입니다.\n");
+            card_sub(2, players);
+            printf("player4님이 카드 내실 차례입니다.\n");
+            card_sub(3, players);
+
+            check_player_card(players);
+        }
+        else if (turn == 2)
+        {
+            printf("[player2님 턴]\n");
+            getchar();
+            printf("player2님이 카드 내실 차례입니다.\n");
+            card_sub(1, players);
+            printf("player3님이 카드 내실 차례입니다.\n");
+            card_sub(2, players);
+            printf("player4님이 카드 내실 차례입니다.\n");
+            card_sub(3, players);
+            printf("player1님이 카드 내실 차례입니다.\n");
+            card_sub(0, players);
+
+            check_player_card(players);
+        }
+        else if (turn == 3)
+        {
+            printf("[player3님 턴]\n");
+            getchar();
+            printf("player3님이 카드 내실 차례입니다.\n");
+            card_sub(2, players);
+            printf("player4님이 카드 내실 차례입니다.\n");
+            card_sub(3, players);
+            printf("player1님이 카드 내실 차례입니다.\n");
+            card_sub(0, players);
+            printf("player2님이 카드 내실 차례입니다.\n");
+            card_sub(1, players);
+
+            check_player_card(players);
+        }
+        else if (turn == 4)
+        {
+            printf("[player4님 턴]\n");
+            getchar();
+            printf("player4님이 카드 내실 차례입니다.\n");
+            card_sub(3, players);
+            printf("player1님이 카드 내실 차례입니다.\n");
+            card_sub(0, players);
+            printf("player2님이 카드 내실 차례입니다.\n");
+            card_sub(1, players);
+            printf("player3님이 카드 내실 차례입니다.\n");
+            card_sub(2, players);
+
+            check_player_card(players);
+        }
+
+        printf("\n\n\n");
+    }
+}

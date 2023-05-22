@@ -1,0 +1,78 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int player_rank = 1; // 플레이어의 등수 지정을 위한 변수
+// 특정 플레이어의 카드 수를 입력받아, 그 플레이어가 0장인 경우 등수를 갱신하는 함수
+void check_rank(int player[], int rank[]) {
+    int i;
+    for (i = 0; i < 4; i++) {
+        if (player[i] == 0 && rank[i] == 0) {// 카드가 0개이면서 아직 등수가 매겨지지 않은 경우
+            rank[i] = player_rank++;// 등수 갱신
+            printf("플레이어 %d가 카드를 모두 제출하였습니다.\n", i + 1);
+        }
+    }
+}
+
+int main() {
+    int player[4]; // 각 플레이어의 카드 수를 저장하는 배열
+    int rank[4] = { 0, 0, 0, 0 }; // 각 플레이어의 등수를 저장하는 배열, 초기값은 0
+    int i, tmp;
+
+    printf("플레이어들의 초기 카드 수를 입력하세요.\n");
+    for (i = 0; i < 4; i++) {
+        printf("플레이어 %d: ", i + 1);
+        scanf("%d", &player[i]);
+        if (player[i] == 0) {// 초기 카드 수가 0이면 등수를 1로 설정하고 출력
+            rank[i] = player_rank++;
+            printf("플레이어 %d가 카드를 모두 제출하였습니다.\n", i + 1);
+        }
+    }
+
+    while (1) {
+        printf("\n현재 카드 수: ");
+        for (i = 0; i < 4; i++) { // 각 플레이어의 카드 수 출력
+            printf("%d ", player[i]);
+        }
+        printf("\n");
+
+        int zero_count = 0; // 카드가 0개인 플레이어의 수를 저장하는 변수
+        for (i = 0; i < 4; i++) {
+            if (player[i] == 0) {
+                zero_count++;
+            }
+        }
+        if (zero_count == 4) { // 카드가 0인 플레이어가 4명이면 게임 종료
+            break;
+        }
+        for (i = 0; i < 4; i++) {// 각 플레이어의 차례에 대해 반복
+            if (player[i] == 0) { // 카드가 0명인 경우에는 입력하지 못하도록 처리
+                continue;
+            }
+            printf("플레이어 %d의 차례입니다. 카드를 몇 장 내시겠습니까? ", i + 1);
+            scanf("%d", &tmp);
+            player[i] -= tmp; // 입력받은 카드 수만큼 플레이어의 카드 수에서 뺀다
+            if (player[i] < 0) { //플레이어 i보다 작으면
+                player[i] = 0; //플레이어 i를 0으로 바꾼다
+            }
+        }
+
+        check_rank(player, rank); //배열을 가지고 등수 배열로 계산
+    }
+
+    printf("\n게임 종료!\n");
+
+    // 문제 부분
+    for (i = 1; i <= 4; i++) // 등수 배열 rank를 이용해 각 플레이어의 등수를 출력한다
+    {
+        int max_rank = 1; // max_rank 변수 초기화
+        for (int j = 0; j < 4; j++) {
+            if (rank[j] == i) {
+                printf("%d등: 플레이어 %d\n", i, j + 1);
+                max_rank++;
+            }
+        }
+    }
+
+    return 0;
+
+}
