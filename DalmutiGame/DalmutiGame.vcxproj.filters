@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\[Algorithm]">
+      <UniqueIdentifier>{6c49dc8c-422d-4ab3-b311-806ee58c6d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\[Logic]">
+      <UniqueIdentifier>{b1b509e1-c3d3-41c8-8f6c-3b2621a7280c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\[Algorithm]">
+      <UniqueIdentifier>{2d3708a3-d272-4a0b-a2de-a3f951da50d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\[Logic]">
+      <UniqueIdentifier>{6f856088-3e07-4ba9-88d7-08b9fcc6c2b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[Algorithm]queue.cpp">
+      <Filter>소스 파일\[Algorithm]</Filter>
+    </ClCompile>
+    <ClCompile Include="[Algorithm]sorting.cpp">
+      <Filter>소스 파일\[Algorithm]</Filter>
+    </ClCompile>
+    <ClCompile Include="[Logic]cardDistribute.cpp">
+      <Filter>소스 파일\[Logic]</Filter>
+    </ClCompile>
+    <ClCompile Include="[Logic]submitCard.cpp">
+      <Filter>소스 파일\[Logic]</Filter>
+    </ClCompile>
+    <ClCompile Include="[Logic]turnManager.cpp">
+      <Filter>소스 파일\[Logic]</Filter>
+    </ClCompile>
+    <ClCompile Include="[Logic]PrintPlayerCards.cpp">
+      <Filter>소스 파일\[Logic]</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="[Algorithm]queue.h">
+      <Filter>헤더 파일\[Algorithm]</Filter>
+    </ClInclude>
+    <ClInclude Include="[Algorithm]sorting.h">
+      <Filter>헤더 파일\[Algorithm]</Filter>
+    </ClInclude>
+    <ClInclude Include="[Logic]submitCard.h">
+      <Filter>헤더 파일\[Logic]</Filter>
+    </ClInclude>
+    <ClInclude Include="[Logic]cardDistribute.h">
+      <Filter>헤더 파일\[Logic]</Filter>
+    </ClInclude>
+    <ClInclude Include="[Logic]turnManager.h">
+      <Filter>헤더 파일\[Logic]</Filter>
+    </ClInclude>
+    <ClInclude Include="[Logic]PrintPlayerCards.h">
+      <Filter>헤더 파일\[Logic]</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
