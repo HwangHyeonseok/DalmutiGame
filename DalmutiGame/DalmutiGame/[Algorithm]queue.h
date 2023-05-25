@@ -1,15 +1,24 @@
 #pragma once
-typedef struct QueueNode {}QueueNode;
-typedef struct {} Queue;
 
-void initializeQueue(Queue* queue) {}
+typedef struct QueueNode {
+    char data[50];
+    struct QueueNode* link;
+} QueueNode;
 
-int isQueueEmpty(const Queue* queue) {}
+typedef struct {
+    QueueNode* front;
+    QueueNode* rear;
+} Queue;
 
-void enqueue(Queue* queue, const char* node) {}
+void initializeQueue(Queue* queue);
+
+int isQueueEmpty(const Queue* queue);
+
+void enqueue(Queue* queue, const char* node);
 
 
-char* dequeue(Queue* queue) {}
-char* showNode(Queue* queue) {}
+char* dequeue(Queue* queue);
 
-void freeQueue(Queue* queue) {}
+char* showNode(Queue* queue);
+
+void freeQueue(Queue* queue);

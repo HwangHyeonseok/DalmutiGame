@@ -1,14 +1,17 @@
 // 카드 분배 로직 구현
+// 각 플레이어들에게 카드를 분배해준다.
+
+// NumPlayers : 플레이어 수
+// playerCards : 각 플레이어가 가지고 있는 카드 배열
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-#include "[Algorithm]Sorting.h"
 
 #define NUM_CARDS 80 // 카드 개수 80개
 
 #pragma region distributeCards 함수 : 카드 분배 로직
-void distributeCards(int num_players, int players[4][20]) {
-    int num_cards_per_player = NUM_CARDS / num_players;
+void distributeCards(int NumPlayers, int playerCards[4][20]) {
+    int num_cards_per_player = NUM_CARDS / NumPlayers;
     int cards[NUM_CARDS];
     int idx = 0;
 
@@ -34,20 +37,8 @@ void distributeCards(int num_players, int players[4][20]) {
     int k = 0;
     for (int i = 0; i < 20; i++) {
         for (int j = 0; j < 4; j++) {
-            players[j][i] = cards[k++];
+            playerCards[j][i] = cards[k++];
         }
     }
 }
 #pragma endregion
-
-// 각 플레이어의 패 출력
-void printPlayerCards(int players[4][20]) {
-    for (int i = 0; i < 4; i++) {
-        printf("플레이어 %d의 패: ", i + 1);
-        bubble_sort(players[i], 20); // 버블 정렬로 정렬
-        for (int j = 0; j < 20; j++) {
-            printf("%d ", players[i][j]);
-        }
-        printf("\n");
-    }
-}

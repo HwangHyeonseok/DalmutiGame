@@ -45,6 +45,12 @@
     <ClCompile Include="[Logic]turnManager.cpp">
       <Filter>소스 파일\[Logic]</Filter>
     </ClCompile>
+    <ClCompile Include="[Logic]PrintPlayerCards.cpp">
+      <Filter>소스 파일\[Logic]</Filter>
+    </ClCompile>
+    <ClCompile Include="backU[Logic]TurnManager.cpp">
+      <Filter>소스 파일\[Logic]</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="[Algorithm]queue.h">
@@ -60,6 +66,12 @@
       <Filter>헤더 파일\[Logic]</Filter>
     </ClInclude>
     <ClInclude Include="[Logic]turnManager.h">
+      <Filter>헤더 파일\[Logic]</Filter>
+    </ClInclude>
+    <ClInclude Include="[Logic]PrintPlayerCards.h">
+      <Filter>헤더 파일\[Logic]</Filter>
+    </ClInclude>
+    <ClInclude Include="backU[Logic]TurnManager.h">
       <Filter>헤더 파일\[Logic]</Filter>
     </ClInclude>
   </ItemGroup>

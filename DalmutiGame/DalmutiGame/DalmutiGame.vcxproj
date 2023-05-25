@@ -127,19 +127,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="[Algorithm]queue.cpp" />
+    <ClCompile Include="[Algorithm]queue.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="[Logic]cardDistribute.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="[Logic]PrintPlayerCards.cpp" />
     <ClCompile Include="[Logic]submitCard.cpp" />
     <ClCompile Include="[Algorithm]sorting.cpp" />
-    <ClCompile Include="[Logic]turnManager.cpp" />
+    <ClCompile Include="[Logic]turnManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="backU[Logic]TurnManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="[Algorithm]queue.h" />
-    <ClInclude Include="[Logic]turnManager.h" />
+    <ClInclude Include="[Logic]PrintPlayerCards.h" />
+    <ClInclude Include="[Logic]turnManager.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="[Logic]cardDistribute.h" />
     <ClInclude Include="[Logic]submitCard.h" />
     <ClInclude Include="[Algorithm]sorting.h" />
+    <ClInclude Include="backU[Logic]TurnManager.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
