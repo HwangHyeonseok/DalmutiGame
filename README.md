@@ -11,10 +11,7 @@
 
 | **황현석** | **이승헌** | **이진석** | **김민석** |
 | :------: |  :------: | :------: | :------: |
-| [<img src="https://avatars.githubusercontent.com/HwangHyeonseok" height=150 width=150> <br/> @HwangHyeonseok](https://github.com/HwangHyeonseok) | 
-[<img src="https://avatars.githubusercontent.com/lico0531" height=150 width=150> <br/> @lico0531](https://github.com/lico0531) | 
-[<img src="https://avatars.githubusercontent.com/LeeJinSeok323" height=150 width=150> <br/> @LeeJinSeok323](https://github.com/LeeJinSeok323) | 
-[<img src="https://avatars.githubusercontent.com/123qweminseok1" height=150 width=150> <br/> @123qweminseok1](https://github.com/123qweminseok1) |
+| [<img src="https://avatars.githubusercontent.com/HwangHyeonseok" height=150 width=150> <br/> @HwangHyeonseok](https://github.com/HwangHyeonseok) | [<img src="https://avatars.githubusercontent.com/lico0531" height=150 width=150> <br/> @lico0531](https://github.com/lico0531) | [<img src="https://avatars.githubusercontent.com/LeeJinSeok323" height=150 width=150> <br/> @LeeJinSeok323](https://github.com/LeeJinSeok323) | [<img src="https://avatars.githubusercontent.com/123qweminseok1" height=150 width=150> <br/> @123qweminseok1](https://github.com/123qweminseok1) |
 
 </div>
 
