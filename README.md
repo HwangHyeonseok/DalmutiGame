@@ -22,8 +22,13 @@
   - [게임 설명](#게임-설명)
   - [게임 플레이 방식](#게임-플레이-방식)
 
-## 개요
+## 개발 개요
+- 개발 기간 : 2022.04~2022.05
+- 개발 언어 : C / C++
 
 ## 게임 설명
+|![dalmuti_intro](https://github.com/user-attachments/assets/dbee008f-b4a1-4b09-9960-421eecf107c0)|![dalmuti_intro](https://github.com/user-attachments/assets/1a099b4c-9e1a-457c-8a5a-3654b0adbe0d)|
+|:---:|:---:|
+|시작 화면|인게임 화면|
 
 ## 게임 플레이 방식
