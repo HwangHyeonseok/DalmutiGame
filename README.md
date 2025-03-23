@@ -27,7 +27,8 @@
 - 개발 언어 : C / C++
 
 ## 게임 설명
-|![dalmuti_intro](https://github.com/user-attachments/assets/dbee008f-b4a1-4b09-9960-421eecf107c0)|![dalmuti_intro](https://github.com/user-attachments/assets/1a099b4c-9e1a-457c-8a5a-3654b0adbe0d)|
+|![dalmuti_intro](https://github.com/user-attachments/assets/dbee008f-b4a1-4b09-9960-421eecf107c0)|![dalmuti_ingame](https://github.com/user-attachments/assets/38057d4d-c8c7-4797-aeb8-48c78ca9a8a3)|
+
 |:---:|:---:|
 |시작 화면|인게임 화면|
 
