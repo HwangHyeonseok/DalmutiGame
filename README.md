@@ -1,14 +1,13 @@
 <div align="center">
-<h2>[2023] 달무티 게임 제작 🎮</h2>
+<h2>[2023] 보드게임 '달무티', 콘솔 게임 제작 🎮</h2>
 인생은 불공평합니다!<br> 
 왕부터 노예까지의 계급 사회<br>
-보드게임 달무티의 콘솔화
+보드게임 '달무티'를 콘솔로 만들었습니다. <br><br>
+<img src="https://github.com/user-attachments/assets/97b82097-1de8-4b63-8185-5d5629cedb4f" alt="dalmuti_intro" />
 </div>
 
 ## 시연 영상
 https://github.com/user-attachments/assets/1bf59578-c2b6-4f7d-8dc6-fc04339e12b8
-
-
 
 ## 팀원 구성
 
