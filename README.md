@@ -5,6 +5,11 @@
 보드게임 달무티의 콘솔화
 </div>
 
+## 시연 영상
+https://github.com/user-attachments/assets/1bf59578-c2b6-4f7d-8dc6-fc04339e12b8
+
+
+
 ## 팀원 구성
 
 <div align="center">
@@ -51,5 +56,4 @@
 |<img src="https://github.com/user-attachments/assets/8ed28970-93f1-48c5-aad3-ce37b740359c" alt="dalmuti_game_main" height="auto" width="500px"/>|<img src="https://github.com/user-attachments/assets/796ab538-af5e-41da-a7f8-79282708103b" alt="dalmuti_game_logic" height="auto" width="500px"/>
 |:---:|:---:|
 |게임 메인 화면|결과 화면|
-
 
