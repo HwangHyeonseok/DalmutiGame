@@ -32,3 +32,15 @@
 |시작 화면|인게임 화면|
 
 ## 게임 플레이 방식
+- 카드를 내지 않을 것인지 (1) 낼 것인지 (0) 입력
+- 낼 카드를 모두 입력
+- 카드를 입력하면 5초 후 다음 사람 턴으로 넘어간다.
+- 좌측 상단에 낸 카드 이력이 나온다.
+- 우측 상단에 각 플레이어의 남은 카드 수가 나온다.
+- 카드를 모두 낼 때까지 게임이 진행된다.
+
+|<img src="https://github.com/user-attachments/assets/c2a9cdff-03c7-4769-8e56-885fb8c0ae20" alt="dalmuti_game_logic" height="auto" width="500px"/>|<img src="https://github.com/user-attachments/assets/717a0f8e-58db-4ade-8bf1-1653b4278590" alt="dalmuti_game_logic" height="auto" width="500px"/>
+|:---:|:---:|
+|인게임 로직|결과 화면|
+
+## 게임 로직
