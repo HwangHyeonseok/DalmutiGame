@@ -13,18 +13,19 @@ https://github.com/user-attachments/assets/1bf59578-c2b6-4f7d-8dc6-fc04339e12b8
 
 <div align="center">
 
-| **황현석** | **이승헌** | **이진석** | **김민석** |
+| **황현석(팀 총괄)** | **이승헌(Back-end)** | **이진석(Front-end)** | **김민석(Front-end)** |
 | :------: |  :------: | :------: | :------: |
-| [<img src="https://avatars.githubusercontent.com/HwangHyeonseok" height=150 width=150> <br/> @HwangHyeonseok](https://github.com/HwangHyeonseok) | [<img src="https://avatars.githubusercontent.com/lico0531" height=150 width=150> <br/> @lico0531](https://github.com/lico0531) | [<img src="https://avatars.githubusercontent.com/LeeJinSeok323" height=150 width=150> <br/> @LeeJinSeok323](https://github.com/LeeJinSeok323) | [<img src="https://avatars.githubusercontent.com/123qweminseok1" height=150 width=150> <br/> @123qweminseok1](https://github.com/123qweminseok1) |
+| [<img src="https://avatars.githubusercontent.com/HwangHyeonseok" height=150 width=150> <br/> @HwangHyeonseok](https://github.com/HwangHyeonseok) <br>흐름도 설계<br>개발 규칙 수립<br>모듈 별 파일 분리 및 github 교육<br>카드 제출 로직 구현<br>Front-end 코드 오류 솔루션 제시 | [<img src="https://avatars.githubusercontent.com/lico0531" height=150 width=150> <br/> @lico0531](https://github.com/lico0531) <br>턴 로직 구현 및 카드 제출 로직에 적용<br>게임 전체 룰 정리<br>설문조사 | [<img src="https://avatars.githubusercontent.com/LeeJinSeok323" height=150 width=150> <br/> @LeeJinSeok323](https://github.com/LeeJinSeok323) <br>전체 코드파일 취합<br>달무티 CLI 화면 구현<br>달무티 소개도 작성 | [<img src="https://avatars.githubusercontent.com/123qweminseok1" height=150 width=150> <br/> @123qweminseok1](https://github.com/123qweminseok1) <br>테스트 케이스 제작<br>자료조사 및 보고서 작성|
 
 </div>
 
 <br>
 
 ## 목차
-  - [개요](#개요) 
+  - [개요](#개발-개요) 
   - [게임 설명](#게임-설명)
   - [게임 플레이 방식](#게임-플레이-방식)
+  - [게임 로직 설계](#게임-로직-설계)
 
 ## 개발 개요
 - 개발 기간 : 2023.04~2023.06
