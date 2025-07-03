@@ -6,6 +6,12 @@
 <img src="https://github.com/user-attachments/assets/97b82097-1de8-4b63-8185-5d5629cedb4f" alt="dalmuti_intro" />
 </div>
 
+## 달무티 게임이란?
+달무티 게임 설명 : https://www.youtube.com/watch?v=Z4CwffK7SE0
+해당 프로젝트 예외 사항
+- 게임 시작 턴 정하기 : 처음 카드 한 장을 뽑았을 때 숫자가 가장 낮은 플레이어부터 시작한다. -> 처음 턴 순서를 정할 때 랜덤으로 결정되도록 구현하였다.
+- 혁명, 어릿광대 기능은 구현하지 않았다.
+
 ## 시연 영상
 https://github.com/user-attachments/assets/1bf59578-c2b6-4f7d-8dc6-fc04339e12b8
 
